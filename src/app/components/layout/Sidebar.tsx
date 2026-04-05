@@ -54,7 +54,7 @@ export const Sidebar = ({ activeTab, setActiveTab }: SidebarProps) => {
       <div className="p-6 border-t border-gray-200 dark:border-gray-700">
         <div className="flex items-center gap-3 text-xs text-gray-500 dark:text-gray-500">
           <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-sm font-semibold">
-            JD
+            A
           </div>
           <div>
             <p className="font-medium text-gray-900 dark:text-white text-sm">Admin</p>
