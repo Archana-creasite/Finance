@@ -1,6 +1,6 @@
 import { Moon, Sun, User, Download, Bell } from 'lucide-react';
 import { useFinanceStore } from '../../../store/useFinanceStore';
-import { Button } from '../ui/Button';
+import { Button } from '../ui/button';
 import { Badge } from '../ui/Badge';
 import { exportToCSV } from '../../../utils/helpers';
 
