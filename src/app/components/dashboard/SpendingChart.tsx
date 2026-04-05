@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
+import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 import { getSpendingByCategory } from '../../../utils/helpers';
 import { useFinanceStore } from '../../../store/useFinanceStore';

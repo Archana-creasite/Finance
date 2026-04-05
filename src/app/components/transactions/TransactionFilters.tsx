@@ -1,6 +1,6 @@
 import { Search, X, SlidersHorizontal } from 'lucide-react';
 import { useFinanceStore } from '../../../store/useFinanceStore';
-import { Button } from '../ui/Button';
+import { Button } from '../ui/button';
 import { CategoryType, TransactionType } from '../../../store/useFinanceStore';
 
 export const TransactionFilters = () => {

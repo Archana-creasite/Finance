@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Card, CardContent } from '../ui/Card';
+import { Card, CardContent } from '../ui/card';
 import { motion } from 'motion/react';
 
 interface InsightCardProps {

@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
+import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
 import { getBalanceTrend } from '../../../utils/helpers';
 import { useFinanceStore } from '../../../store/useFinanceStore';
