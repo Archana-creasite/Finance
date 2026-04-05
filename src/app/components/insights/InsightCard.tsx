@@ -29,7 +29,7 @@ export const InsightCard = ({ icon, title, value, description, trend, index }: I
       transition={{ duration: 0.3, delay: index * 0.1 }}
       whileHover={{ y: -4 }}
     >
-      <Card className="hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 overflow-hidden relative">
+      <Card className="hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 overflow-hidden relative h-[168px]">
         <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-2xl" />
         <CardContent className="p-6 relative">
           <div className="flex items-start gap-4">
